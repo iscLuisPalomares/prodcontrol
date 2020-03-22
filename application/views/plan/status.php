@@ -1,48 +1,57 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style>
+    .sidebarbutton {
+      height: 50px;
+      transition: 0.3s;
+      background: #25a0a8;
+      border-radius: 5px;
+      text-align: center;
+      vertical-align: middle;
+      margin: 2px;
+    } 
+    .sidebarbutton:hover {
+      background: #2bbbc4;
+      transition: 0.3s;
+      transform: scale(1.05);
+    } 
+    .fuenteblanca {
+      color: #fff;
+    }
+    
+  </style>
 </head>
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-              <a class="dropdown-item" href="#">Another thingy</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+=======
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-4 col-lg-2">
+        <div class="col-sm-12">
+          <img src="https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="imagen" class="rounded img-thumbnail">
+        </div>
+        <div class="sidebarbutton fuenteblanca">Ver plan</div>
+        <div class="sidebarbutton fuenteblanca">Comprar plan</div>
+        <div class="sidebarbutton fuenteblanca">Monitoriear Plan</div>
+        <div class="sidebarbutton fuenteblanca">Dashboard</div>
+        <div></div>
+        <div></div>
       </div>
-    </nav>
+      <div class="col-sm-12 col-md-8 col-lg-10">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+>>>>>>> 3a9dc34d3e1a6636f4c9ca066a2625f9ca707b75
+      </div>
+      
+    </div>
+    
   </div>
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </html>
