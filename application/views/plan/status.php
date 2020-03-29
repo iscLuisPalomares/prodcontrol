@@ -24,7 +24,6 @@
 </head>
 <body>
 
-=======
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 col-md-4 col-lg-2">
@@ -43,7 +42,6 @@
         <div></div>
         <div></div>
         <div></div>
->>>>>>> 3a9dc34d3e1a6636f4c9ca066a2625f9ca707b75
       </div>
       
     </div>
