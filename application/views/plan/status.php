@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 col-md-4 col-lg-2">
-        <div class="col-sm-12">
+        <div class="col-sm-12" style="max-height: 50px;">
           <img src="https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="imagen" class="rounded img-thumbnail">
         </div>
         <div class="sidebarbutton fuenteblanca">Ver plan</div>
