@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <style>
@@ -23,8 +22,9 @@
     
   </style>
 </head>
-
 <body>
+
+=======
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 col-md-4 col-lg-2">
@@ -43,6 +43,7 @@
         <div></div>
         <div></div>
         <div></div>
+>>>>>>> 3a9dc34d3e1a6636f4c9ca066a2625f9ca707b75
       </div>
       
     </div>
