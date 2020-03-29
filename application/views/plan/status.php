@@ -1,29 +1,9 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <style>
-    .sidebarbutton {
-      height: 50px;
-      transition: 0.3s;
-      background: #25a0a8;
-      border-radius: 5px;
-      text-align: center;
-      vertical-align: middle;
-      margin: 2px;
-    } 
-    .sidebarbutton:hover {
-      background: #2bbbc4;
-      transition: 0.3s;
-      transform: scale(1.05);
-    } 
-    .fuenteblanca {
-      color: #fff;
-    }
-    
-  </style>
+  <link rel="stylesheet" href="<?php echo base_url('assets/css/site.css'); ?>">
 </head>
 <body>
-
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 col-md-4 col-lg-2">

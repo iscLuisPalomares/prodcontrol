@@ -1,0 +1,17 @@
+.sidebarbutton {
+    height: 50px;
+    transition: 0.3s;
+    background: #25a0a8;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 2px;
+  } 
+  .sidebarbutton:hover {
+    background: #2bbbc4;
+    transition: 0.3s;
+    transform: scale(1.05);
+  } 
+  .fuenteblanca {
+    color: #fff;
+  }
